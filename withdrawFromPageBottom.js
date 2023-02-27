@@ -8,7 +8,7 @@ setInterval(() => {
     connectButtons[i].click();
     confirmButton[0].click();
   }
-}, 2000);
+}, 3000);
 
 // Withdraw invitations function
 (function withdrawInvitations() {
