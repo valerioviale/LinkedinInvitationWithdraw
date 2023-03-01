@@ -8,7 +8,7 @@ setInterval(() => {
     connectButtons[i].click();
     confirmButton[0].click();
   }
-}, 3000);
+}, 4000);
 
 // Withdraw invitations function
 (function withdrawInvitations() {
@@ -51,9 +51,9 @@ setInterval(() => {
                 console.log("Rerun withdraw...");
                 withdrawOneInvitation();
               }
-            }, 4000);
+            }, 5000);
           }
-        }, invitationButtonIndex * 300, invitationButton, invitationButtonIndex);
+        }, invitationButtonIndex * 3000, invitationButton, invitationButtonIndex);
       }
 
       invitationButtonIndex++;
