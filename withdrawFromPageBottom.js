@@ -53,7 +53,7 @@ setInterval(() => {
               }
             }, 5000);
           }
-        }, invitationButtonIndex * 3000, invitationButton, invitationButtonIndex);
+        }, invitationButtonIndex * 600, invitationButton, invitationButtonIndex);
       }
 
       invitationButtonIndex++;
